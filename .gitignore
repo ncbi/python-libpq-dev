@@ -1,0 +1,5 @@
+.tox
+.eggs
+dist
+build
+VERSION
