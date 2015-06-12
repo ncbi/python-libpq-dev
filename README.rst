@@ -102,10 +102,8 @@ In case this package is missing some binaries requried by libraries other that
 .. _Debian's libpq-dev package: https://packages.debian.org/sid/libpq-dev
 .. _PostgreSQL: http://www.postgresql.org/
 .. _Psycopg2: https://pypi.python.org/pypi/psycopg2
-.. _paltform-specific: https://packaging.python.org/en/latest/distributing.html#
-platform-wheels
+.. _paltform-specific: https://packaging.python.org/en/latest/distributing.html#platform-wheels
 .. _Python wheels: http://pythonwheels.com/
-.. _built against different versions: http://www.leeladharan.com/importerror-
-psycopg-so:-undefined-symbol:-lo-truncate64
+.. _built against different versions: http://www.leeladharan.com/importerror-psycopg-so:-undefined-symbol:-lo-truncate64
 .. _Platter: http://platter.pocoo.org/
 .. _known issue with PIP: https://github.com/pypa/pip/issues/25
