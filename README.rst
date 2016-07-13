@@ -5,11 +5,11 @@ Overview
 --------
 
 The ``libpq-dev`` library is built following `Debian's libpq-dev package`_ 
-idea: it contains a minimal set of `PostgreSQL`_ binaries and headers requried 
+idea: it contains a minimal set of `PostgreSQL`_ binaries and headers required 
 for building 3rd-party applications for `PostgreSQL`_.
 
 Moreover this package provides even smaller subset of binaries than 
-`Debian's libpq-dev package`_ and was desgined this way on purpose. The main 
+`Debian's libpq-dev package`_ and was designed this way on purpose. The main 
 goal is to provide all requirements for building `Psycopg2`_.
 
 This package is meant to be built as `platform-specific`_ binary 
@@ -19,8 +19,8 @@ Rationale
 ---------
 The `Psycopg2`_ library is built as a wrapper around ``libpq`` and mostly 
 written in C. It is distributed as an ``sdist`` and being built during 
-installation. For this reason it requries some `PostgreSQL`_ binaries and 
-headers to be present during isntallation.
+installation. For this reason it requires some `PostgreSQL`_ binaries and 
+headers to be present during installation.
 
 For simple environments where database server and application server combine 
 the same host it is not an issue but it might be a different case for 
@@ -48,7 +48,7 @@ Usage
 -----
 
 The usage is pretty simple and straight forward: install ``libpq-dev`` of 
-requried version (the same version as your PostgreSQL version) before 
+required version (the same version as your PostgreSQL version) before 
 installing `Psycopg2`_.
 
 ::
@@ -79,7 +79,7 @@ Also please note that there is `known issue with PIP`_ and some Python packages
     $ pip install libpq-dev==9.4.3 psycopg2
 
 or put these names into `requirements.txt` and then run ``pip install -r 
-requirements.txt``. This is because `Psycopg2`_ requries ``pg_config`` and 
+requirements.txt``. This is because `Psycopg2`_ requires ``pg_config`` and 
 other PostgreSQL binaries to be present in order to run ``egg_info`` command 
 (which is executed by `PIP` during normal installation process).
 
@@ -102,7 +102,7 @@ In case this package is missing some binaries requried by libraries other that
 .. _Debian's libpq-dev package: https://packages.debian.org/sid/libpq-dev
 .. _PostgreSQL: http://www.postgresql.org/
 .. _Psycopg2: https://pypi.python.org/pypi/psycopg2
-.. _paltform-specific: https://packaging.python.org/en/latest/distributing.html#platform-wheels
+.. _platform-specific: https://packaging.python.org/en/latest/distributing.html#platform-wheels
 .. _Python wheels: http://pythonwheels.com/
 .. _built against different versions: http://www.leeladharan.com/importerror-psycopg-so:-undefined-symbol:-lo-truncate64
 .. _Platter: http://platter.pocoo.org/
